@@ -12,6 +12,23 @@ Tenho interesse em tecnologia e gosto de aprender na prática, explorando princi
 
 #
 
+<p align="left">
+    <a href="https://github.com/kpybara?tab=repositories&sort=stargazers">
+        <img
+            alt="Total de estrelas"
+            title="Total de estrelas GitHub"
+            src="https://custom-icon-badges.demolab.com/github/stars/kpybara?color=ffff00&style=for-the-badge&labelColor=daa520&logo=star&label=estrelas"
+        />
+    </a>
+    <a href="https://github.com/kpybara?tab=followers">
+        <img
+            alt="Seguidores"
+            title="Me siga no GitHub"
+            src="https://custom-icon-badges.demolab.com/github/followers/kpybara?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
+        />
+    </a>
+</p>
+
 <img align="right" alt="Cyberpunk Edgerunners" height="190px" src="./src/edgerunners.gif">
 
 <h3 align="left">Connect with me!</h3>
