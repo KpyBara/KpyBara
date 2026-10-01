@@ -7,22 +7,16 @@
   </a>
 </div>
 
-## Olá, sou João Victor 👋
+## Prazer, sou João Victor
 **Estudante de Análise e Desenvolvimento de Sistemas** <br>
 Tenho interesse em tecnologia e gosto de aprender na prática, explorando principalmente **desenvolvimento web, programação, hardware e redes**.
 
 <img align="right" alt="Cyberpunk Edgerunners" height="190px" src="./src/edgerunners.gif">
 
-
-
----
-
 ### 🌐 Contato
 
 [![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=FF00F6&color=FFF)](mailto:joao.victor.g.amotimm@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color=FFF)](https://www.linkedin.com/in/joao-victor-gomes-de-amorim/)
-
----
 
 ### 💻 Linguagens e Tecnologias
 
@@ -85,8 +79,6 @@ Tenho interesse em tecnologia e gosto de aprender na prática, explorando princi
 />
 
 <br><br>
-
----
 
 ### 📊 Estatísticas
 
