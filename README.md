@@ -13,23 +13,7 @@ Tenho interesse em tecnologia e gosto de aprender na prática, explorando princi
 
 <img align="right" alt="Cyberpunk Edgerunners" height="190px" src="./src/edgerunners.gif">
 
-<p align="left">
-    <a href="https://github.com/kpybara?tab=repositories&sort=stargazers">
-        <img
-            alt="Total de estrelas"
-            title="Total de estrelas GitHub"
-            src="https://custom-icon-badges.demolab.com/github/stars/kpybara?color=ffff00&style=for-the-badge&labelColor=daa520&logo=star&label=estrelas"
-        />
-    </a>
 
-<a href="https://github.com/kpybara?tab=followers">
-  <img
-    alt="Seguidores"
-    title="Me siga no GitHub"
-    src="https://custom-icon-badges.demolab.com/github/followers/kpybara?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
-  />
-</a>
-</p>
 
 ---
 
@@ -110,7 +94,7 @@ Tenho interesse em tecnologia e gosto de aprender na prática, explorando princi
     <img
         align="left"
         alt="GitHub Stats"
-        height="200"
+        height="150"
         style="padding-right: 10px;"
         src="https://github-readme-stats-zeta-five-58.vercel.app/api?username=kpybara&show_icons=true&locale=pt-br&hide=contribs&cache_seconds=21600&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=ffffff&ring_color=ffffff&custom_title=My%20GitHub%20Statistics"
     />
@@ -118,7 +102,7 @@ Tenho interesse em tecnologia e gosto de aprender na prática, explorando princi
   <img
         align="left"
         alt="Top Languages"
-        height="200"
+        height="150"
         src="https://github-readme-stats-two-omega-43.vercel.app/api/top-langs/?username=kpybara&layout=compact&custom_title=Stack&langs_count=8&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=ffffff&ring_color=ffffff"
     />
 </p>
