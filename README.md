@@ -98,7 +98,7 @@ Tenho interesse em tecnologia e gosto de aprender na prática, explorando princi
     align="left"
     alt="Top Languages"
     height="150"
-    src="https://github-readme-stats-zeta-five-58.vercel.app/api/top-langs/?username=kpybara&layout=compact&custom_title=Stack&langs_count=8&theme=monokai"
+    src="https://github-readme-stats-zeta-five-58.vercel.app/api/top-langs/?username=kpybara&layout=compact&custom_title=Stack&langs_count=8&theme=monokai&cache_seconds=1800"
     />
 </p>
 
