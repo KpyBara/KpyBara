@@ -1,17 +1,22 @@
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=FF0055&center=false&vCenter=true&random=false&width=550&height=50&lines=%3E+ACCESSING_AFTERLIFE_NET...;%3E+ICE_BREAKER.EXE+EXECUTED+%5BSUCCESS%5D;%3E+BOUNTY%3A+FULL-STACK+DEVELOPER;%3E+TRANSFERRING+EDDIES...+%5B%24%24%24%5D;%3E+SYSTEM%3A+Seja+bem-vindo(a)+ao+meu+GitHub!"
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=FF0055&center=false&vCenter=true&random=false&width=480&height=60&lines=%3E+ACCESSING_AFTERLIFE_NET...;%3E+ICE_BREAKER.EXE+EXECUTED+%5BSUCCESS%5D;%3E+BOUNTY%3A+FULL-STACK+DEVELOPER;%3E+TRANSFERRING+EDDIES...+%5B%24%24%24%5D;%3E+SYSTEM%3A+Seja+bem-vindo(a)+ao+meu+GitHub!"
       alt="Afterlife Terminal"
+      align="middle"
     >
   </a>
+  <img
+    alt="Cyberpunk Edgerunners"
+    height="110px"
+    src="./src/edgerunners.gif"
+    align="middle"
+  >
 </div>
 
 ## Prazer, João Victor
 **Estudante de Análise e Desenvolvimento de Sistemas** <br>
 Tenho interesse em tecnologia e gosto de aprender na prática, explorando principalmente **desenvolvimento web, programação, hardware e redes**.
-
-<img align="right" alt="Cyberpunk Edgerunners" height="190px" src="./src/edgerunners.gif">
 
 ### 🌐 Contato
 
