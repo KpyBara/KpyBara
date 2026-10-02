@@ -16,7 +16,6 @@
 
 ## Prazer, João Victor
 **Estudante de Análise e Desenvolvimento de Sistemas** <br>
-Tenho interesse em tecnologia e gosto de aprender na prática, explorando principalmente **desenvolvimento web, programação, hardware e redes**.
 
 ### 🌐 Contato
 
