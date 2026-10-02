@@ -17,9 +17,6 @@
 ## Prazer, João Victor
 **Estudante de Análise e Desenvolvimento de Sistemas** <br>
 
-[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=FF00F6&color=FFF)](mailto:joao.victor.g.amotimm@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color=FFF)](https://www.linkedin.com/in/joao-victor-gomes-de-amorim/)
-
 
 
 <img
@@ -78,7 +75,12 @@
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
 />
 
-<br><br>
+<br></br>
+
+[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=FF00F6&color=FFF)](mailto:joao.victor.g.amotimm@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color=FFF)](https://www.linkedin.com/in/joao-victor-gomes-de-amorim/)
+
+
 
 <p>
   <img
