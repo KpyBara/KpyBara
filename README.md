@@ -1,13 +1,13 @@
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=F1F1F1&center=true&vCenter=true&random=false&width=380&lines=%E2%8A%B9+Seja+bem-vindo!+%CB%99%E1%B5%95%CB%99+%E2%8A%B9+"
-      alt="Typing SVG"
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=FF0055&center=false&vCenter=true&random=false&width=550&height=50&lines=%3E+ACCESSING_AFTERLIFE_NET...;%3E+ICE_BREAKER.EXE+EXECUTED+%5BSUCCESS%5D;%3E+BOUNTY%3A+FULL-STACK+DEVELOPER;%3E+TRANSFERRING+EDDIES...+%5B%24%24%24%5D;%3E+SYSTEM%3A+Seja+bem-vindo(a)+ao+meu+GitHub!"
+      alt="Afterlife Terminal"
     >
   </a>
 </div>
 
-## Prazer, sou João Victor
+## Prazer, João Victor
 **Estudante de Análise e Desenvolvimento de Sistemas** <br>
 Tenho interesse em tecnologia e gosto de aprender na prática, explorando principalmente **desenvolvimento web, programação, hardware e redes**.
 
@@ -102,18 +102,21 @@ Tenho interesse em tecnologia e gosto de aprender na prática, explorando princi
 <br clear="both">
 
 <picture>
-    <source
-        media="(prefers-color-scheme: dark)"
-        srcset="https://raw.githubusercontent.com/kpybara/kpybara/output/github-contribution-grid-snake-dark.svg"
-    />
-
+  <!-- Tema Escuro: Palette Mercenários / Afterlife -->
   <source
-        media="(prefers-color-scheme: light)"
-        srcset="https://raw.githubusercontent.com/kpybara/kpybara/output/github-contribution-grid-snake-dark.svg"
-    />
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/kpybara/kpybara/output/github-contribution-grid-snake-dark.svg"
+  />
 
+  <!-- Tema Claro: Palette High-Tech / Corporate -->
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/kpybara/kpybara/output/github-contribution-grid-snake.svg"
+  />
+
+  <!-- Fallback -->
   <img
-        alt="GitHub contribution grid snake animation"
-        src="https://raw.githubusercontent.com/kpybara/kpybara/output/github-contribution-grid-snake-dark.svg"
-    />
+    alt="Cyberpunk Netrunner Contribution Snake"
+    src="https://raw.githubusercontent.com/kpybara/kpybara/output/github-contribution-grid-snake-dark.svg"
+  />
 </picture>
