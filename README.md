@@ -13,7 +13,6 @@
   width="520"
 />
 
-
 <img
   src="./info-card.svg"
   alt="KpyBara profile information"
@@ -30,33 +29,5 @@
 />
 
 <br>
-
----
-
-### `CURRENT_FOCUS`
-
-`WEB DEVELOPMENT`
-`PROGRAMMING`
-`HARDWARE`
-`NETWORKING`
-
-<br>
-
----
-
-### `STACK`
-
-`HTML` · `CSS` · `JAVASCRIPT` · `PYTHON` · `GIT`
-
-<br>
-
----
-
-<sub>
-
-`KPYBARA@AFTERLIFE_NET`
-`CONNECTION ESTABLISHED // SYSTEM ONLINE`
-
-</sub>
 
 </div>
