@@ -1,7 +1,11 @@
+from pathlib import Path
+
 from PIL import Image, ImageOps
 
-INPUT_FILE = "source-photo.jpg"
-OUTPUT_FILE = "source-prepped.png"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+INPUT_FILE = PROJECT_ROOT / "source-photo.jpg"
+OUTPUT_FILE = PROJECT_ROOT / "source-prepped.png"
 
 WIDTH = 120
 HEIGHT = 120
@@ -10,6 +14,9 @@ HEIGHT = 120
 def main():
     print("[+] ACCESSING VISUAL INPUT...")
     print(f"[+] SOURCE: {INPUT_FILE}")
+
+    if not INPUT_FILE.exists():
+        raise FileNotFoundError(f"Foto não encontrada: {INPUT_FILE}")
 
     image = Image.open(INPUT_FILE)
 

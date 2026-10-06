@@ -10,8 +10,8 @@
 <br>
 
 <img
-  src="./kpybara-ascii.svg"
-  alt="KpyBara ASCII portrait"
+  src="./kpybara-ascii.gif"
+  alt="KpyBara Cyberpunk portrait"
   width="520"
 />
 
