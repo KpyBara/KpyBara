@@ -12,7 +12,7 @@ OUTPUT_FILE = "contrib-heatmap.svg"
 USERNAME = "KpyBara"
 
 WIDTH = 900
-HEIGHT = 250
+HEIGHT = 280
 
 CELL_SIZE = 11
 CELL_GAP = 4
@@ -358,17 +358,16 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
     data-level="{level}"/>
 """)
 
-    # ========================================================
-    # LEGENDA
-    # ========================================================
+            animation_index += 1
 
-    # O grid termina em aproximadamente Y = 156.
-    # A legenda fica abaixo dele, em Y = 180.
+# --------------------------------------------------------
+# LEGENDA
+# --------------------------------------------------------
 
-    legend_x = 45
-    legend_y = 180
+legend_x = 45
+legend_y = 225
 
-    svg.append(f"""
+svg.append(f"""
 <!-- LEGENDA -->
 
 <text
@@ -383,11 +382,11 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 </text>
 """)
 
-    for index, color in enumerate(PALETTE):
+for index, color in enumerate(PALETTE):
 
-        x = legend_x + 34 + index * 17
+    x = legend_x + 34 + index * 17
 
-        svg.append(f"""
+    svg.append(f"""
 <rect
     x="{x}"
     y="{legend_y - 9}"
@@ -397,9 +396,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
     fill="{color}"/>
 """)
 
-    more_x = legend_x + 34 + len(PALETTE) * 17 + 5
-
-    svg.append(f"""
+svg.append(f"""
 <text
     x="{more_x}"
     y="{legend_y}"
@@ -411,12 +408,11 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 </text>
 """)
-
-    # ========================================================
+    # --------------------------------------------------------
     # ESTATÍSTICAS
     # ========================================================
 
-    svg.append(f"""
+svg.append(f"""
 <!-- ESTATÍSTICAS -->
 
 <text
