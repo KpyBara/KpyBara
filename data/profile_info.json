@@ -1,0 +1,27 @@
+{
+    "username": "KpyBara",
+    "name": "João Victor",
+    "role": "FULL-STACK DEVELOPER",
+    "status": "ONLINE",
+    "location": "BRAZIL",
+    "education": "ADS @ IFPA",
+    "focus": [
+        "WEB DEVELOPMENT",
+        "PROGRAMMING",
+        "HARDWARE",
+        "NETWORKING"
+    ],
+    "stack": [
+        "HTML",
+        "CSS",
+        "JAVASCRIPT",
+        "PYTHON",
+        "GIT"
+    ],
+    "editor": "VS CODE",
+    "terminal": "BASH / POWERSHELL",
+    "os": [
+        "WINDOWS",
+        "POP!_OS"
+    ]
+}
