@@ -10,17 +10,6 @@
 
 <br>
 
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:050509,50:12050D,100:050509&height=2&section=header"
-  alt="Cyberpunk divider"
-/>
-
-</div>
-
-<br>
-
-<div align="center">
-
 <pre>
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
@@ -35,7 +24,7 @@
 
 </div>
 
-<br>
+---
 
 ## `kpybara@afterlife ~ $ whoami`
 
@@ -69,11 +58,9 @@
 
 </div>
 
-<br>
-
 ---
 
-## `kpybara@afterlife ~ $ cat /etc/profile`
+## `kpybara@afterlife ~ $ cat /profile`
 
 <pre>
 ┌─────────────────────────────────────────────────────────────┐
@@ -90,11 +77,13 @@
 └─────────────────────────────────────────────────────────────┘
 </pre>
 
-> Desenvolvedor em formação, estudante de **Análise e Desenvolvimento de Sistemas no IFPA**, explorando desenvolvimento web, programação, hardware e redes.
+Estudante de **Análise e Desenvolvimento de Sistemas no IFPA**, interessado em desenvolvimento web, programação, hardware e redes.
+
+Meu objetivo é aprender na prática, transformar conhecimento em projetos e evoluir continuamente na área de tecnologia.
 
 ---
 
-## `kpybara@afterlife ~ $ ./contributions.sh`
+## `kpybara@afterlife ~ $ ./contributions`
 
 <div align="center">
 
@@ -106,107 +95,102 @@
 
 </div>
 
-<br>
+---
+
+## `kpybara@afterlife ~ $ ls /focus`
+
+<pre>
+> WEB DEVELOPMENT
+> PROGRAMMING
+> HARDWARE
+> NETWORKING
+> LEARNING BY BUILDING
+</pre>
 
 ---
 
-## `kpybara@afterlife ~ $ ls /skills`
+## `kpybara@afterlife ~ $ ls /stack`
 
 <div align="center">
 
-| SYSTEM | STATUS |
-|:---:|:---:|
-| `HTML` | `ONLINE` |
-| `CSS` | `ONLINE` |
-| `JAVASCRIPT` | `ONLINE` |
-| `PYTHON` | `ONLINE` |
-| `GIT` | `ONLINE` |
-| `NETWORKING` | `LOADING...` |
-| `HARDWARE` | `ONLINE` |
+<pre>
+┌─────────────────────────────────────────────────────────────┐
+│                         TECH STACK                          │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  HTML          ████████████████████████████████  ONLINE     │
+│  CSS           ████████████████████████████████  ONLINE     │
+│  JAVASCRIPT    ████████████████████████████████  ONLINE     │
+│  PYTHON        ████████████████████████████████  ONLINE     │
+│  GIT           ████████████████████████████████  ONLINE     │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+</pre>
 
 </div>
 
-<br>
-
 ---
 
-## `kpybara@afterlife ~ $ cat current_focus`
+## `kpybara@afterlife ~ $ system.info`
 
 <pre>
-&gt; WEB DEVELOPMENT
-&gt; PROGRAMMING
-&gt; HARDWARE
-&gt; NETWORKING
-&gt; LEARNING BY BUILDING
-</pre>
+USER        : KpyBara
+NAME        : João Victor
+EDUCATION   : ADS @ IFPA
 
-Meu foco atual é transformar conhecimento teórico em projetos funcionais, experimentando diferentes tecnologias e aprendendo principalmente através da prática.
+FOCUS       : Web Development
+              Programming
+              Hardware
+              Networking
 
----
+STACK       : HTML
+              CSS
+              JavaScript
+              Python
+              Git
 
-## `kpybara@afterlife ~ $ neofetch`
+EDITOR      : VS Code
+TERMINAL    : Bash / PowerShell
+SYSTEMS     : Windows / Pop!_OS
 
-<pre>
-                    ███████████████
-                 ███               ███
-               ██       KPYBARA       ██
-              ██                       ██
-             ██     ▄▄▄▄▄▄▄▄▄▄▄▄▄      ██
-             ██    █             █     ██
-             ██    █   AFTERLIFE  █     ██
-             ██    █      NET     █     ██
-              ██   █             █    ██
-               ██   ▀▀▀▀▀▀▀▀▀▀▀▀▀   ██
-                 ███             ███
-                    ███████████████
-
-OS:          Windows / Pop!_OS
-EDITOR:      VS Code
-SHELL:       Bash / PowerShell
-LANGUAGES:   JavaScript / Python
-WEB:         HTML / CSS
-VCS:         Git / GitHub
-STATUS:      Learning...
+STATUS      : LEARNING BY BUILDING
 </pre>
 
 ---
 
-## `kpybara@afterlife ~ $ ./system_status`
-
-<pre>
-[████████████████████████████████] 100%
-
-IDENTITY              ONLINE
-GITHUB NETWORK        ONLINE
-WEB DEVELOPMENT       ONLINE
-PROGRAMMING           ONLINE
-HARDWARE              ONLINE
-NETWORKING            ONLINE
-
-SYSTEM STATUS:        OPERATIONAL
-</pre>
-
----
-
-## `kpybara@afterlife ~ $ exit`
+## `kpybara@afterlife ~ $ status`
 
 <div align="center">
 
 <pre>
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
-║       CONNECTION TERMINATED — AFTERLIFE_NET                 ║
+║                     SYSTEM STATUS                            ║
 ║                                                              ║
-║              SEE YOU ON THE NEXT RUN                         ║
+║  IDENTITY             [ ONLINE ]                             ║
+║  GITHUB NETWORK       [ ONLINE ]                             ║
+║  WEB DEVELOPMENT      [ ONLINE ]                             ║
+║  PROGRAMMING          [ ONLINE ]                             ║
+║  HARDWARE             [ ONLINE ]                             ║
+║  NETWORKING           [ ONLINE ]                             ║
+║                                                              ║
+║                     SYSTEM OPERATIONAL                       ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
 </pre>
 
-<br>
+</div>
 
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:050509,50:FF0055,100:050509&height=2&section=footer"
-  alt="Cyberpunk divider"
-/>
+---
+
+<div align="center">
+
+<pre>
+> CONNECTION ESTABLISHED
+> LEARNING IN PROGRESS
+> BUILDING THE NEXT VERSION
+
+AFTERLIFE_NET // KPYBARA
+</pre>
 
 </div>
