@@ -1,6 +1,5 @@
 import json
-import math
-from datetime import datetime
+from datetime import datetime, timedelta
 
 INPUT_FILE = "data/contributions.json"
 OUTPUT_FILE = "contrib-heatmap.svg"
@@ -70,12 +69,8 @@ def build_grid(contributions):
     # Volta para o domingo da primeira semana.
     start_date = first_date.replace(hour=0, minute=0, second=0, microsecond=0)
 
-    start_date = start_date.replace(day=start_date.day)
-
     # Python: Monday=0 ... Sunday=6
     weekday = start_date.weekday()
-
-    from datetime import timedelta
 
     start_date -= timedelta(days=(weekday + 1) % 7)
 
@@ -207,6 +202,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
             opacity: 0;
             transform-box: fill-box;
             transform-origin: center;
+
             animation:
                 boot 0.45s
                 ease-out
@@ -217,6 +213,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
             0% {{
                 opacity: 0;
+
                 transform:
                     translate(
                         -10px,
@@ -227,6 +224,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
             60% {{
                 opacity: 1;
+
                 transform:
                     translate(
                         2px,
@@ -237,6 +235,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
             100% {{
                 opacity: 1;
+
                 transform:
                     translate(0, 0)
                     scale(1);
@@ -261,6 +260,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 
 <!-- Borda -->
+
 <rect
     x="1"
     y="1"
@@ -328,11 +328,9 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 <!-- ===================================================== -->
 """)
 
-    # --------------------------------------------------------
+    # ========================================================
     # CÉLULAS
-    # --------------------------------------------------------
-
-    animation_index = 0
+    # ========================================================
 
     for week_index, week in enumerate(grid):
 
@@ -360,14 +358,15 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
     data-level="{level}"/>
 """)
 
-            animation_index += 1
-
-    # --------------------------------------------------------
+    # ========================================================
     # LEGENDA
-    # --------------------------------------------------------
+    # ========================================================
+
+    # O grid termina em aproximadamente Y = 156.
+    # A legenda fica abaixo dele, em Y = 180.
 
     legend_x = 45
-    legend_y = 145
+    legend_y = 180
 
     svg.append(f"""
 <!-- LEGENDA -->
@@ -398,9 +397,11 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
     fill="{color}"/>
 """)
 
+    more_x = legend_x + 34 + len(PALETTE) * 17 + 5
+
     svg.append(f"""
 <text
-    x="{legend_x + 34 + len(PALETTE) * 17 + 5}"
+    x="{more_x}"
     y="{legend_y}"
     fill="#666"
     font-family="monospace"
@@ -411,16 +412,16 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 </text>
 """)
 
-    # --------------------------------------------------------
+    # ========================================================
     # ESTATÍSTICAS
-    # --------------------------------------------------------
+    # ========================================================
 
     svg.append(f"""
 <!-- ESTATÍSTICAS -->
 
 <text
     x="855"
-    y="155"
+    y="180"
     text-anchor="end"
     fill="#FF0055"
     font-family="monospace"
@@ -434,7 +435,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 <text
     x="855"
-    y="174"
+    y="198"
     text-anchor="end"
     fill="#777"
     font-family="monospace"
@@ -445,24 +446,11 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 </text>
 
 
-<text
-    x="855"
-    y="192"
-    text-anchor="end"
-    fill="#444"
-    font-family="monospace"
-    font-size="8">
-
-    DATA SOURCE: GITHUB PUBLIC NETWORK
-
-</text>
-
-
 <!-- STATUS -->
 
 <circle
     cx="48"
-    cy="205"
+    cy="220"
     r="3"
     fill="#FF0055"
     filter="url(#neonGlow)"/>
@@ -470,7 +458,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 <text
     x="58"
-    y="209"
+    y="224"
     fill="#FF0055"
     font-family="monospace"
     font-size="9">
@@ -482,7 +470,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 <text
     x="855"
-    y="209"
+    y="224"
     text-anchor="end"
     fill="#333"
     font-family="monospace"

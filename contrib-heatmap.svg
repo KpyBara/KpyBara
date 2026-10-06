@@ -76,6 +76,7 @@ viewBox="0 0 900 250">
             opacity: 0;
             transform-box: fill-box;
             transform-origin: center;
+
             animation:
                 boot 0.45s
                 ease-out
@@ -86,6 +87,7 @@ viewBox="0 0 900 250">
 
             0% {
                 opacity: 0;
+
                 transform:
                     translate(
                         -10px,
@@ -96,6 +98,7 @@ viewBox="0 0 900 250">
 
             60% {
                 opacity: 1;
+
                 transform:
                     translate(
                         2px,
@@ -106,6 +109,7 @@ viewBox="0 0 900 250">
 
             100% {
                 opacity: 1;
+
                 transform:
                     translate(0, 0)
                     scale(1);
@@ -130,6 +134,7 @@ viewBox="0 0 900 250">
 
 
 <!-- Borda -->
+
 <rect
     x="1"
     y="1"
@@ -4652,7 +4657,7 @@ viewBox="0 0 900 250">
 
 <text
     x="45"
-    y="145"
+    y="180"
     fill="#666"
     font-family="monospace"
     font-size="9">
@@ -4663,7 +4668,7 @@ viewBox="0 0 900 250">
 
 <rect
     x="79"
-    y="136"
+    y="171"
     width="11"
     height="11"
     rx="2"
@@ -4671,7 +4676,7 @@ viewBox="0 0 900 250">
 
 <rect
     x="96"
-    y="136"
+    y="171"
     width="11"
     height="11"
     rx="2"
@@ -4679,7 +4684,7 @@ viewBox="0 0 900 250">
 
 <rect
     x="113"
-    y="136"
+    y="171"
     width="11"
     height="11"
     rx="2"
@@ -4687,7 +4692,7 @@ viewBox="0 0 900 250">
 
 <rect
     x="130"
-    y="136"
+    y="171"
     width="11"
     height="11"
     rx="2"
@@ -4695,7 +4700,7 @@ viewBox="0 0 900 250">
 
 <rect
     x="147"
-    y="136"
+    y="171"
     width="11"
     height="11"
     rx="2"
@@ -4703,7 +4708,7 @@ viewBox="0 0 900 250">
 
 <rect
     x="164"
-    y="136"
+    y="171"
     width="11"
     height="11"
     rx="2"
@@ -4711,7 +4716,7 @@ viewBox="0 0 900 250">
 
 <text
     x="186"
-    y="145"
+    y="180"
     fill="#666"
     font-family="monospace"
     font-size="9">
@@ -4724,7 +4729,7 @@ viewBox="0 0 900 250">
 
 <text
     x="855"
-    y="155"
+    y="180"
     text-anchor="end"
     fill="#FF0055"
     font-family="monospace"
@@ -4738,7 +4743,7 @@ viewBox="0 0 900 250">
 
 <text
     x="855"
-    y="174"
+    y="198"
     text-anchor="end"
     fill="#777"
     font-family="monospace"
@@ -4749,24 +4754,11 @@ viewBox="0 0 900 250">
 </text>
 
 
-<text
-    x="855"
-    y="192"
-    text-anchor="end"
-    fill="#444"
-    font-family="monospace"
-    font-size="8">
-
-    DATA SOURCE: GITHUB PUBLIC NETWORK
-
-</text>
-
-
 <!-- STATUS -->
 
 <circle
     cx="48"
-    cy="205"
+    cy="220"
     r="3"
     fill="#FF0055"
     filter="url(#neonGlow)"/>
@@ -4774,7 +4766,7 @@ viewBox="0 0 900 250">
 
 <text
     x="58"
-    y="209"
+    y="224"
     fill="#FF0055"
     font-family="monospace"
     font-size="9">
@@ -4786,7 +4778,7 @@ viewBox="0 0 900 250">
 
 <text
     x="855"
-    y="209"
+    y="224"
     text-anchor="end"
     fill="#333"
     font-family="monospace"
