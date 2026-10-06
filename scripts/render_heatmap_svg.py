@@ -13,7 +13,7 @@ OUTPUT_FILE = "contrib-heatmap.svg"
 USERNAME = "KpyBara"
 
 WIDTH = 900
-HEIGHT = 250
+HEIGHT = 280
 
 CELL_SIZE = 11
 CELL_GAP = 4
@@ -367,7 +367,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 # --------------------------------------------------------
 
 legend_x = 45
-legend_y = 175
+legend_y = 225
 
 svg.append(f"""
 <!-- LEGENDA -->
@@ -410,7 +410,6 @@ svg.append(f"""
 
 </text>
 """)
-
     # --------------------------------------------------------
     # ESTATÍSTICAS
     # --------------------------------------------------------
