@@ -22,9 +22,6 @@
 
 <br>
 
----
-
-### `CONTRIBUTION_NETWORK`
 
 <img
   src="./contrib-heatmap.svg"
