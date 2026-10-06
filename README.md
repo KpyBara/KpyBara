@@ -42,7 +42,4 @@
   alt="KpyBara contribution network"
   width="900"
 />
-
-<br>
-
 </div>
