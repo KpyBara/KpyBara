@@ -19,7 +19,7 @@
 <img
   src="./kpybara-ascii.gif"
   alt="KpyBara Cyberpunk portrait"
-  width="220"
+  width="250"
 />
 
 </td>
