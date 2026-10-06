@@ -7,8 +7,6 @@
   >
 </a>
 
-<br>
-
 <img
   src="./kpybara-ascii.gif"
   alt="KpyBara Cyberpunk portrait"
