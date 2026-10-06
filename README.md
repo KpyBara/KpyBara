@@ -13,17 +13,6 @@
   width="520"
 />
 
-<br>
-
-### `KPYBARA // AFTERLIFE_NET`
-
-`WEB DEVELOPMENT` · `PROGRAMMING` · `HARDWARE` · `NETWORKING`
-
-<br>
-
----
-
-### `IDENTITY`
 
 <img
   src="./info-card.svg"
