@@ -1,9 +1,9 @@
 <div align="center">
 
-<table>
-<tr>
+<table border="0" style="border: none;">
+<tr style="border: none;">
 
-<td align="left">
+<td align="left" style="border: none;">
 
 <a href="https://git.io/typing-svg">
   <img
@@ -14,12 +14,12 @@
 
 </td>
 
-<td align="center">
+<td align="center" style="border: none;">
 
 <img
   src="./kpybara-ascii.gif"
   alt="KpyBara Cyberpunk portrait"
-  width="250"
+  width="220"
 />
 
 </td>
