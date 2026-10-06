@@ -2,195 +2,77 @@
 
 <a href="https://git.io/typing-svg">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=FF0055&center=false&vCenter=true&random=false&width=480&height=60&lines=%3E+ACCESSING_AFTERLIFE_NET...;%3E+ICE_BREAKER.EXE+EXECUTED+%5BSUCCESS%5D;%3E+BOUNTY%3A+FULL-STACK+DEVELOPER;%3E+TRANSFERRING+EDDIES...+%5B%24%24%24%5D;%3E+SYSTEM%3A+Seja+bem-vindo(a)+ao+meu+GitHub!"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=FF0055&center=true&vCenter=true&random=false&width=520&height=60&lines=%3E+ACCESSING_AFTERLIFE_NET...;%3E+ICE_BREAKER.EXE+EXECUTED+%5BSUCCESS%5D;%3E+BOUNTY%3A+FULL-STACK+DEVELOPER;%3E+TRANSFERRING+EDDIES...+%5B%24%24%24%5D;%3E+SYSTEM%3A+Seja+bem-vindo(a)+ao+meu+GitHub!"
     alt="Afterlife Terminal"
-    align="middle"
   >
 </a>
 
 <br>
 
-<pre>
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║                 K P Y B A R A   //   N E T                  ║
-║                                                              ║
-║                  AFTERLIFE_NETWORK                           ║
-║                                                              ║
-║              CONNECTION ESTABLISHED                          ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-</pre>
-
-</div>
-
----
-
-## `kpybara@afterlife ~ $ whoami`
-
-<div align="center">
-
-<table>
-<tr>
-
-<td width="50%" align="center">
-
 <img
   src="./kpybara-ascii.svg"
   alt="KpyBara ASCII portrait"
-  width="490"
+  width="520"
 />
 
-</td>
+<br>
 
-<td width="50%" align="center">
+### `KPYBARA // AFTERLIFE_NET`
+
+`WEB DEVELOPMENT` · `PROGRAMMING` · `HARDWARE` · `NETWORKING`
+
+<br>
+
+---
+
+### `IDENTITY`
 
 <img
   src="./info-card.svg"
   alt="KpyBara profile information"
-  width="490"
+  width="500"
 />
 
-</td>
-
-</tr>
-</table>
-
-</div>
+<br>
 
 ---
 
-## `kpybara@afterlife ~ $ cat /profile`
-
-<pre>
-┌─────────────────────────────────────────────────────────────┐
-│ IDENTITY                                                    │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│ NAME        João Victor                                     │
-│ USER        @KpyBara                                        │
-│ SYSTEM      ONLINE                                          │
-│ EDUCATION   ADS @ IFPA                                      │
-│ LOCATION    BRAZIL                                          │
-│ EDITOR      VS CODE                                         │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-</pre>
-
-Estudante de **Análise e Desenvolvimento de Sistemas no IFPA**, interessado em desenvolvimento web, programação, hardware e redes.
-
-Meu objetivo é aprender na prática, transformar conhecimento em projetos e evoluir continuamente na área de tecnologia.
-
----
-
-## `kpybara@afterlife ~ $ ./contributions`
-
-<div align="center">
+### `CONTRIBUTION_NETWORK`
 
 <img
   src="./contrib-heatmap.svg"
-  alt="KpyBara GitHub contribution network"
+  alt="KpyBara contribution network"
   width="900"
 />
 
-</div>
+<br>
 
 ---
 
-## `kpybara@afterlife ~ $ ls /focus`
+### `CURRENT_FOCUS`
 
-<pre>
-> WEB DEVELOPMENT
-> PROGRAMMING
-> HARDWARE
-> NETWORKING
-> LEARNING BY BUILDING
-</pre>
+`WEB DEVELOPMENT`
+`PROGRAMMING`
+`HARDWARE`
+`NETWORKING`
 
----
-
-## `kpybara@afterlife ~ $ ls /stack`
-
-<div align="center">
-
-<pre>
-┌─────────────────────────────────────────────────────────────┐
-│                         TECH STACK                          │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  HTML          ████████████████████████████████  ONLINE     │
-│  CSS           ████████████████████████████████  ONLINE     │
-│  JAVASCRIPT    ████████████████████████████████  ONLINE     │
-│  PYTHON        ████████████████████████████████  ONLINE     │
-│  GIT           ████████████████████████████████  ONLINE     │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-</pre>
-
-</div>
+<br>
 
 ---
 
-## `kpybara@afterlife ~ $ system.info`
+### `STACK`
 
-<pre>
-USER        : KpyBara
-NAME        : João Victor
-EDUCATION   : ADS @ IFPA
+`HTML` · `CSS` · `JAVASCRIPT` · `PYTHON` · `GIT`
 
-FOCUS       : Web Development
-              Programming
-              Hardware
-              Networking
-
-STACK       : HTML
-              CSS
-              JavaScript
-              Python
-              Git
-
-EDITOR      : VS Code
-TERMINAL    : Bash / PowerShell
-SYSTEMS     : Windows / Pop!_OS
-
-STATUS      : LEARNING BY BUILDING
-</pre>
+<br>
 
 ---
 
-## `kpybara@afterlife ~ $ status`
+<sub>
 
-<div align="center">
+`KPYBARA@AFTERLIFE_NET`
+`CONNECTION ESTABLISHED // SYSTEM ONLINE`
 
-<pre>
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║                     SYSTEM STATUS                            ║
-║                                                              ║
-║  IDENTITY             [ ONLINE ]                             ║
-║  GITHUB NETWORK       [ ONLINE ]                             ║
-║  WEB DEVELOPMENT      [ ONLINE ]                             ║
-║  PROGRAMMING          [ ONLINE ]                             ║
-║  HARDWARE             [ ONLINE ]                             ║
-║  NETWORKING           [ ONLINE ]                             ║
-║                                                              ║
-║                     SYSTEM OPERATIONAL                       ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-</pre>
-
-</div>
-
----
-
-<div align="center">
-
-<pre>
-> CONNECTION ESTABLISHED
-> LEARNING IN PROGRESS
-> BUILDING THE NEXT VERSION
-
-AFTERLIFE_NET // KPYBARA
-</pre>
+</sub>
 
 </div>
