@@ -362,14 +362,14 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
             animation_index += 1
 
-    # --------------------------------------------------------
-    # LEGENDA
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# LEGENDA
+# --------------------------------------------------------
 
-    legend_x = 45
-    legend_y = 145
+legend_x = 45
+legend_y = 175
 
-    svg.append(f"""
+svg.append(f"""
 <!-- LEGENDA -->
 
 <text
@@ -384,11 +384,11 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 </text>
 """)
 
-    for index, color in enumerate(PALETTE):
+for index, color in enumerate(PALETTE):
 
-        x = legend_x + 34 + index * 17
+    x = legend_x + 34 + index * 17
 
-        svg.append(f"""
+    svg.append(f"""
 <rect
     x="{x}"
     y="{legend_y - 9}"
@@ -398,7 +398,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
     fill="{color}"/>
 """)
 
-    svg.append(f"""
+svg.append(f"""
 <text
     x="{legend_x + 34 + len(PALETTE) * 17 + 5}"
     y="{legend_y}"
