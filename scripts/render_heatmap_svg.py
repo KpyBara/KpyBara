@@ -332,6 +332,8 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
     # CÉLULAS
     # ========================================================
 
+    animation_index = 0
+
     for week_index, week in enumerate(grid):
 
         for day_index, (date, level) in enumerate(week):
@@ -360,14 +362,14 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
             animation_index += 1
 
-# --------------------------------------------------------
-# LEGENDA
-# --------------------------------------------------------
+    # --------------------------------------------------------
+    # LEGENDA
+    # --------------------------------------------------------
 
-legend_x = 45
-legend_y = 225
+    legend_x = 45
+    legend_y = 225
 
-svg.append(f"""
+    svg.append(f"""
 <!-- LEGENDA -->
 
 <text
@@ -382,11 +384,11 @@ svg.append(f"""
 </text>
 """)
 
-for index, color in enumerate(PALETTE):
+    for index, color in enumerate(PALETTE):
 
-    x = legend_x + 34 + index * 17
+        x = legend_x + 34 + index * 17
 
-    svg.append(f"""
+        svg.append(f"""
 <rect
     x="{x}"
     y="{legend_y - 9}"
@@ -396,7 +398,9 @@ for index, color in enumerate(PALETTE):
     fill="{color}"/>
 """)
 
-svg.append(f"""
+    more_x = legend_x + 34 + len(PALETTE) * 17
+
+    svg.append(f"""
 <text
     x="{more_x}"
     y="{legend_y}"
@@ -408,11 +412,12 @@ svg.append(f"""
 
 </text>
 """)
+
     # --------------------------------------------------------
     # ESTATÍSTICAS
-    # ========================================================
+    # --------------------------------------------------------
 
-svg.append(f"""
+    svg.append(f"""
 <!-- ESTATÍSTICAS -->
 
 <text
