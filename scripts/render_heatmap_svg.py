@@ -369,7 +369,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
     # --------------------------------------------------------
 
     legend_x = 45
-    legend_y = 225
+    legend_y = 236
 
     svg.append(f"""
 <!-- LEGENDA -->
@@ -419,6 +419,8 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
     # ESTATÍSTICAS
     # --------------------------------------------------------
 
+    status_y = 214
+
     svg.append(f"""
 <!-- ESTATÍSTICAS -->
 
@@ -453,7 +455,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 <circle
     cx="48"
-    cy="220"
+    cy="{status_y - 4}"
     r="3"
     fill="#FF0055"
     filter="url(#neonGlow)"/>
@@ -461,7 +463,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 <text
     x="58"
-    y="224"
+    y="{status_y}"
     fill="#FF0055"
     font-family="monospace"
     font-size="9">
