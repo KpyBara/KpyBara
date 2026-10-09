@@ -34,12 +34,17 @@ def fetch_contributions():
     for cell in cells:
 
         date = cell.get("data-date")
-        level = cell.get("data-level", "0")
+        level_text = cell.get("data-level") or "0"
 
-        if not date:
+        if date is None:
             continue
 
-        contributions.append({"date": date, "level": int(level)})
+        try:
+            level = int(level_text)
+        except (TypeError, ValueError):
+            continue
+
+        contributions.append({"date": date, "level": level})
 
     print(f"[+] {len(contributions)} contribution cells received.")
 
