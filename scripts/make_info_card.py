@@ -1,7 +1,9 @@
 import json
+from pathlib import Path
 
-INPUT_FILE = "data/profile_info.json"
-OUTPUT_FILE = "info-card.svg"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+INPUT_FILE = PROJECT_ROOT / "data" / "profile_info.json"
+OUTPUT_FILE = PROJECT_ROOT / "info-card.svg"
 
 WIDTH = 490
 HEIGHT = 390

@@ -1,14 +1,17 @@
 import json
 from datetime import datetime, timezone
+from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = PROJECT_ROOT / "data"
+OUTPUT_FILE = DATA_DIR / "contributions.json"
+
 USERNAME = "KpyBara"
 
 URL = f"https://github.com/users/{USERNAME}/contributions"
-
-OUTPUT_FILE = "data/contributions.json"
 
 
 def fetch_contributions():

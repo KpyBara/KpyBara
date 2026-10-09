@@ -1,8 +1,10 @@
 import json
 from datetime import datetime, timedelta
+from pathlib import Path
 
-INPUT_FILE = "data/contributions.json"
-OUTPUT_FILE = "contrib-heatmap.svg"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+INPUT_FILE = PROJECT_ROOT / "data" / "contributions.json"
+OUTPUT_FILE = PROJECT_ROOT / "contrib-heatmap.svg"
 
 
 # ============================================================

@@ -4600,10 +4600,10 @@ viewBox="0 0 900 280">
     width="11"
     height="11"
     rx="2"
-    fill="#78083C"
+    fill="#FF0055"
     style="animation-delay:1.370s"
     data-date="2026-10-06"
-    data-level="2"/>
+    data-level="4"/>
 
 <rect
     class="cell"
@@ -4624,10 +4624,10 @@ viewBox="0 0 900 280">
     width="11"
     height="11"
     rx="2"
-    fill="#15151C"
+    fill="#78083C"
     style="animation-delay:1.440s"
     data-date="2026-10-08"
-    data-level="0"/>
+    data-level="2"/>
 
 <rect
     class="cell"
@@ -4636,10 +4636,10 @@ viewBox="0 0 900 280">
     width="11"
     height="11"
     rx="2"
-    fill="#15151C"
+    fill="#FF0055"
     style="animation-delay:1.475s"
     data-date="2026-10-09"
-    data-level="0"/>
+    data-level="4"/>
 
 <rect
     class="cell"
@@ -4736,7 +4736,7 @@ viewBox="0 0 900 280">
     font-size="12"
     font-weight="bold">
 
-    4 ACTIVE DAYS
+    6 ACTIVE DAYS
 
 </text>
 
@@ -4784,7 +4784,7 @@ viewBox="0 0 900 280">
     font-family="monospace"
     font-size="8">
 
-    UPDATED: 2026-10-06
+    UPDATED: 2026-10-09
 
 </text>
 
